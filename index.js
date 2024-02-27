@@ -6,6 +6,7 @@ localStorage.setItem('nombre', 'Juan');
 
 // Recuperar una variable de localStorage
 const nombre = localStorage.getItem('nombre');
+console.log("El nombre guardado es:", nombre)
 
 // Eliminar una variable de localStorage
 //localStorage.removeItem('nombre');
